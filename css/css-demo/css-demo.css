@@ -1,0 +1,23 @@
+section#contact-info  { 
+font-size: .8em; }  
+
+
+.job  {
+ border-radius: 25px;
+ background:#e9e5dc;
+ padding: 20px; 
+ width: 400px;
+ height: 175px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+} 
+
+
+ul li {
+ font-size: .8em;
+} 
+
+
+h3:first-letter {
+font-size: 150%;
+}
