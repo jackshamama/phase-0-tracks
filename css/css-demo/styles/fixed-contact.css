@@ -24,6 +24,3 @@ section#contact-info p {
 to avoid the appearance of an extra
 border. */
 
-section#H1 p:first-of-type {
-  color:"orange";
-}
