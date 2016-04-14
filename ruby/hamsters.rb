@@ -5,7 +5,7 @@ volume = gets.chomp.to_i
 puts "What is the fur color?"
 color = gets.chomp
 puts "Is the hamster a good candidate for adoption?"
-candidate = gets.chomp
+candidate = gets.chomp.downcase
  	if candidate == "yes"
  	candidate = true
  	elsif candidate == "no"
@@ -22,3 +22,11 @@ age = gets.chomp.to_i
  	age = nil
  end
 p age
+
+puts "Thanks for using the Hamster Registry. Your Hamster name is #{name}. Their volume is #{volume} . They have a fur color of #{color}." 
+if candidate == true
+	puts "They ARE a good cnadiate for adoption."
+	elsif candidate == false
+	puts "They ARE NOT a good candidate for adoption."
+end
+
