@@ -10,7 +10,8 @@ Enter front door of taqueria.
 	
 	if at ordering station
 		say, “Carnitas burrito.”
-
+	end
+	
 	if asked “Regular or Super”
 		say, “Regular” 
 	end
@@ -21,5 +22,6 @@ Enter front door of taqueria.
 
 	If asked “Hot or mild?”
 		say, “Mild”
-
+	end
+	
 When given burrito, proceed to cashier. 
