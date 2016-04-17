@@ -1,0 +1,25 @@
+SF Burrito Ordering Algorithm 
+
+Enter front door of taqueria.
+
+	if not at counter, 
+		proceed to closest ordering station
+	else 
+		get in line
+	end
+	
+	if at ordering station
+		say, “Carnitas burrito.”
+
+	if asked “Regular or Super”
+		say, “Regular” 
+	end
+
+	If asked “What kinds of beans?”
+		say “Pinto”
+	end
+
+	If asked “Hot or mild?”
+		say, “Mild”
+
+When given burrito, proceed to cashier. 
