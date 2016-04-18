@@ -10,7 +10,7 @@ puts "How many employees  are there to proces?"
 				puts "What year were you born?"
 				year_born = gets.chomp.to_i
 
-				puts "Would you like some garlic bread from our cafeteria?"
+				puts "Would you like some tasty garlic bread from our cafeteria?"
 					garlic = if gets.chomp.downcase == "yes"
 						true	
 						else 
