@@ -6,13 +6,10 @@ puts "before the block"
 	yield 
 	puts "after the block"
 end
-variable {puts "hello whirlled"}
 
-# declare an array and a hash, and populate each of them with some data. 
+variable { puts "hello whirlled" }
 
-# Demonstrate that you can iterate through each one using .each, and then 
-# using .map! Print the data structures before and after each call 
-# to demonstrate whether they have been modified or not.
+# Release 1
 
 internet_cats = [ "Maru" , "Grumpy Cat" , "Snoopy the Cat" , "Lil Bub" , "Colonel Meow"]
 
@@ -60,7 +57,7 @@ p numbers_5
 # ADD HASHES
 
 
-numbers = {1 , 2 , 3 , 4 , 5 , 6 , 7 , 8, 9 , 10}
+numbers = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8, 9 , 10]
 p numbers
 numbers.delete_if { |num| num % 2 == 1 }
 p numbers
